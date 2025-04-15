@@ -31,7 +31,11 @@
 
 ![Gmail](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)
 
-
-
-
+<h1>PROJECT SCREENSHOT'S </h1>
+<h2>HOME PAGE</h2>
+![Image](https://github.com/user-attachments/assets/b527279d-af07-4bd2-b1f1-cc4b20e748ef)
+<h2>CREATE ACCOUNT</h2>
+![Image](https://github.com/user-attachments/assets/8849a4ad-ddf3-4e04-b219-ddf3d7ad827f)
+<h2>PIN GENERATION</h2>
+![Image](https://github.com/user-attachments/assets/d540bbfb-5772-4317-a143-782803495db3)
 
