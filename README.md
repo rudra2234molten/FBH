@@ -1,10 +1,12 @@
 <h1>FBH(FRAUD BANK OF HYDERABAD</h1>
+<p>THIS PROJECT IS BASED ON BANK MANAGEMENT SYSTEM </p>
 <h2>FEATURES</h2>
 <hr>
 <ul>
   <li>ACCOUNT CREATION</li>
-  <li>PIN GENERATION</li>
+  <li>PIN GENERATION & VALIDATIONS</li>
   <li>WITHDRAW AND DEPOSIT MONEY WITH MAIIL NOTIFICATION</li>
+  <li>MONEY TRANSFER</li>
 </ul>
 # TECHNOLOGIES USED 📌
 
@@ -28,6 +30,8 @@
 ## Social 🌍
 
 ![Gmail](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)
+
+
 
 
 
