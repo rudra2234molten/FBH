@@ -1,0 +1,29 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Bungee+Tint&family=Parkinsans:wght@300..800&family=Quicksand:wght@300..700&family=Shadows+Into+Light&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="{% static '/root_css/main.css' %}">
+  <link rel="stylesheet" href="{% static '/root_css/nav.css' %}">
+  <link rel="stylesheet" href="{% static '/css/index.css' %}">
+  <link rel="stylesheet" href="{% static '/root_css/footer.css' %}">
+  <link rel="stylesheet" href="{% static '/css/create.css' %}">
+</head>
+
+<body>
+  {% include "nav.html" %}
+  {% block content %}
+
+  {% endblock content %}
+  {% include "footer.html" %}
+</body>
+
+</html>

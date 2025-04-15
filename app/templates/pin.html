@@ -1,0 +1,12 @@
+{% extends "main.html" %}
+{% block content %}
+  <section class="pin_sec_main_container all_forms"><br><br><br><br><br><br>
+    <h1>GENERATE PIN HERE</h1>
+    <form action="" method="post" class="flex">
+      {% csrf_token %}
+      <label for="accountnum">Account Number</label>
+      <input type="number" name="accountnum" id="accountnum" required>
+      <button type="submit">GENERATE OTP</button>
+    </form>
+  </section>
+{% endblock content %}

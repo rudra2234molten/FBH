@@ -1,0 +1,16 @@
+{% extends "main.html" %}
+{% block content %}
+<section class="dep_sec_main_container all_forms"><br><br><br><br><br><br>
+  <h1>DEPOSIT MONEY</h1>
+  <form action="" method="post" class="flex">
+    {% csrf_token %}
+    <label for="acc">Account Number</label>
+    <input type="number" name="acc" id="acc" placeholder="Enter Account Number" inputmode="numeric" required>
+    <label for="pin">Pin</label>
+    <input type="password" name="pin" id="pin" placeholder="Enter Account Pin" inputmode="numeric" required>
+    <label for="amount">Withdraw Amount</label>
+    <input type="number" name="amount" id="amount" placeholder="Enter Withdraw Amount" inputmode="numeric" required>
+    <button type="submit">DEPOSTE</button>
+  </form>
+</section>
+{% endblock content %}

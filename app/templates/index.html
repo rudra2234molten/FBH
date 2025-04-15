@@ -1,0 +1,33 @@
+{% extends "main.html" %}
+{% load static %}
+{% block content %}
+<section class="hero_sec_main_container">
+  <div class="hero_sec_container flex">
+    <a href="{% url 'create' %}">
+      <img src="{% static '/assets/usersymbol.png' %}" alt="">
+      <h1>Create Account</h1>
+    </a>
+    <a href="{% url 'pin' %}">
+      <img src="{% static '/assets/locksymbol.png' %}" alt="">
+      <h1>Pin Generate</h1>
+    </a>
+    <a href="{% url 'balance' %}">
+      <img src="{% static '/assets/digital-wallet.png' %}" alt="">
+      <h1>Check Balance</h1>
+    </a>
+    <a href="{% url 'withdraw' %}">
+      <img src="{% static '/assets/cash-withdrawal.png' %}" alt="">
+      <h1>Withdraw Money</h1>
+    </a>
+    <a href="{% url 'deposite' %}">
+      <img src="{% static '/assets/deposite.png' %}" alt="">
+      <h1>Deposite Money</h1>
+    </a>
+    <a href="{% url 'transfer' %}">
+      <img src="{% static '/assets/transference.png' %}" alt="">
+      <h1>Transfer Money</h1>
+    </a>
+  </div>
+  <br><br>
+</section>
+{% endblock content %}

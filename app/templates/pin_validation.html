@@ -1,0 +1,18 @@
+{% extends "main.html" %}
+{% block content %}
+<section class="v_pin_sec_main_container all_forms"><br><br><br><br><br><br><br>
+  <h1>OTP VALIDATION</h1>
+  <form action="" method="post" class="flex">
+    {% csrf_token %}
+    <label for="accountnum">Account Number</label>
+    <input required type="number" name="accountnum" id="accountnum" placeholder="Enter Account Number">
+    <label for="otp">OTP</label>
+    <input required type="password" name="otp" id="otp" maxlength="6" placeholder="Enter OTP">
+    <label for="pinn">PIN</label>
+    <input required type="password" name="pinn" id="pinn" placeholder="Create Pin">
+    <label for="con-pin">CONFIRM PIN</label>
+    <input required type="password" name="con_pin" id="con_pin" placeholder="Confirm Pin">
+    <button type="submit">GENERATE PIN</button>
+  </form>
+</section>
+{% endblock content %}

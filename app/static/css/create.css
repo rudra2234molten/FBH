@@ -1,0 +1,91 @@
+.create_acc_main_container {
+  height: auto;
+  width: 100vw;
+  background-color: #1f1c2c;
+}
+
+.all_forms h1 {
+  text-align: center;
+  font-size: xx-large;
+  color: #fff;
+  padding: 15px;
+  text-transform: uppercase;
+}
+
+.all_forms h2{
+  text-align: center;
+  color: #2bce2b;
+  font-size: xx-large;
+  padding: 10px 0px;
+}
+
+.all_forms p{
+  text-align: center;
+  text-transform: uppercase;
+  font-size: xx-large;
+  color: #db2929;
+  padding: 10px 0px;
+}
+
+.all_forms form {
+  width: 50vw;
+  height: auto;
+  flex-direction: column;
+  margin: auto;
+  padding: 50px;
+  gap: 30px;
+  box-shadow: 0 0 5px #6b6b6b;
+  border-radius: 10px;
+  line-height: 0px;
+  transition: all 0.3s ease-in-out;
+}
+
+.all_forms form:hover {
+  scale: 1.003;
+  transition: all 0.3s ease-in-out;
+  box-shadow: 0 0 5px #60daff, 0 0 20px #60daff;
+  cursor: pointer;
+}
+
+.all_forms form input {
+  font-size: large;
+  padding: 10px 10px;
+  background-color: #b1b1b141;
+  backdrop-filter: blur(10px);
+  border: none;
+  border-radius: 10px;
+  outline: none;
+}
+
+.all_forms form input::placeholder {
+  /* font-size: larger; */
+  color: #a5a5a5;
+}
+
+.all_forms form input:focus {
+  border: 1px solid #60daff71;
+}
+
+.all_forms form label {
+  color: #fff;
+  text-align: center;
+  font-weight: bold;
+  font-size: larger;
+}
+
+.all_forms form button {
+  background-color: #00a6d8;
+  padding: 13px 0px;
+  border: none;
+  font-weight: bold;
+  border-radius: 10px;
+  color: #fff;
+  transition: all 0.3s ease-in-out;
+}
+
+.all_forms button:hover {
+  background-color: #0085ad;
+  box-shadow: 0 0 5px #00a6d8, 0 0 20px #00a6d8;
+  transition: all 0.3s ease-in-out;
+  cursor: pointer;
+}

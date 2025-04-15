@@ -1,0 +1,20 @@
+{% extends "main.html" %}
+{% block content %}
+<section class="bal_sec_main_container all_forms"><br><br><br><br><br><br><br>
+  <h1>CHECK BALANCE</h1>
+  {% if check %}
+  <h2>YOUR ACCOUNT BALANCE IS : {{bal}}</h2>
+  {% endif %}
+  {% if check1 %}
+  <p>{{msg}}</p>
+  {% endif %}
+  <form action="" method="post" class="flex">
+    {% csrf_token %}
+    <label for="acc">Account Number</label>
+    <input type="number" name="acc" id="acc" placeholder="Enter Account Number" required>
+    <label for="pinn">Pin</label>
+    <input type="password" name="pinn" id="pinn" placeholder="Enter Pin" required>
+    <button type="submit">SUBMIT</button>
+  </form>
+</section>
+{% endblock content %}

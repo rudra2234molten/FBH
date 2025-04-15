@@ -1,0 +1,33 @@
+.hero_sec_main_container {
+  width: 100vw;
+  height: 80vh;
+  background-color: #1f1c2c;
+}
+
+.hero_sec_container {
+  width: inherit;
+  height: inherit;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+.hero_sec_container a h1 {
+  text-transform: uppercase;
+  white-space: nowrap;
+  color: #7fc1ff;
+  font-size: 100%;
+  text-align: center;
+}
+
+.hero_sec_container img {
+  width: 190px;
+  transition: all 0.3s ease-in-out;
+}
+
+.hero_sec_container img:hover{
+  scale: 1.03;
+  filter: drop-shadow(0 0 5px #77ffd6) drop-shadow(0 0 20px #77ffd6);
+  transition: all 0.3s ease-in-out;
+  cursor: pointer;
+}
