@@ -1,6 +1,11 @@
 <h1>FBH(FRAUD BANK OF HYDERABAD</h1>
-<li>demo</li>
-
+<h2>FEATURES</h2>
+<hr>
+<ul>
+  <li>ACCOUNT CREATION</li>
+  <li>PIN GENERATION</li>
+  <li>WITHDRAW AND DEPOSIT MONEY WITH MAIIL NOTIFICATION</li>
+</ul>
 # TECHNOLOGIES USED 📌
 
 ## Front End 📫
