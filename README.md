@@ -33,9 +33,8 @@
 
 <h1>PROJECT SCREENSHOT'S </h1>
 <h2>HOME PAGE</h2>
-https://github.com/user-attachments/assets/b527279d-af07-4bd2-b1f1-cc4b20e748ef
+![Image](https://github.com/user-attachments/assets/3aabf71a-b4f4-459d-bfeb-192015042841)
 <h2>CREATE ACCOUNT</h2>
-https://github.com/user-attachments/assets/8849a4ad-ddf3-4e04-b219-ddf3d7ad827f
+![Image](https://github.com/user-attachments/assets/259efc02-d27f-4637-94f8-f68959f7c1fc)
 <h2>PIN GENERATION</h2>
-https://github.com/user-attachments/assets/d540bbfb-5772-4317-a143-782803495db3
-
+![Image](https://github.com/user-attachments/assets/ff41056f-d772-42da-b5d4-1088f45a9e9f)
