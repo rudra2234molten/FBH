@@ -38,3 +38,9 @@
 ![Image](https://github.com/user-attachments/assets/259efc02-d27f-4637-94f8-f68959f7c1fc)
 <h2>PIN GENERATION</h2>
 ![Image](https://github.com/user-attachments/assets/ff41056f-d772-42da-b5d4-1088f45a9e9f)
+<h2>BALANCE CHECK</h2>
+![Image](https://github.com/user-attachments/assets/d5e26f15-b9bf-41d3-98a8-a6b1de67d28f)
+<h2>WITHDRAW MONEY</h2>
+![Image](https://github.com/user-attachments/assets/46c32154-d4b5-4c4e-9016-ec7475866be9)
+<h2>DEPOSIT MONEY</h2>
+<h2>TRANSFER MONEY</h2>
