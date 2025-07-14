@@ -33,14 +33,14 @@
 
 <h1>PROJECT SCREENSHOT'S </h1>
 <h2>HOME PAGE</h2>
-![Image](https://github.com/user-attachments/assets/3aabf71a-b4f4-459d-bfeb-192015042841)
+<img width="1365" height="644" alt="Image" src="https://github.com/user-attachments/assets/2dcd55c9-9ad9-41ec-a984-3b99583c37eb" />
 <h2>CREATE ACCOUNT</h2>
-![Image](https://github.com/user-attachments/assets/259efc02-d27f-4637-94f8-f68959f7c1fc)
+<img width="1337" height="627" alt="Image" src="https://github.com/user-attachments/assets/a38b83c5-c097-471c-acb3-21a5caef3e5d" />
 <h2>PIN GENERATION</h2>
-![Image](https://github.com/user-attachments/assets/ff41056f-d772-42da-b5d4-1088f45a9e9f)
+<img width="1357" height="644" alt="Image" src="https://github.com/user-attachments/assets/15f70442-c66e-4c40-99e6-e59999cb1abf" />
 <h2>BALANCE CHECK</h2>
-![Image](https://github.com/user-attachments/assets/d5e26f15-b9bf-41d3-98a8-a6b1de67d28f)
+<img width="1337" height="621" alt="Image" src="https://github.com/user-attachments/assets/43ef61b1-8a05-43ed-ae30-9e2864c59add" />
 <h2>WITHDRAW MONEY</h2>
-![Image](https://github.com/user-attachments/assets/46c32154-d4b5-4c4e-9016-ec7475866be9)
+<img width="1337" height="617" alt="Image" src="https://github.com/user-attachments/assets/7d749f54-c658-4bd4-a92a-68578cf637ae" />
 <h2>DEPOSIT MONEY</h2>
 <h2>TRANSFER MONEY</h2>
