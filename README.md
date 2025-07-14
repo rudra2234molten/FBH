@@ -43,4 +43,6 @@
 <h2>WITHDRAW MONEY</h2>
 <img width="1337" height="617" alt="Image" src="https://github.com/user-attachments/assets/7d749f54-c658-4bd4-a92a-68578cf637ae" />
 <h2>DEPOSIT MONEY</h2>
+<img width="1365" height="640" alt="Image" src="https://github.com/user-attachments/assets/ed976d15-5f6a-412f-b00d-a83928f35eff" />
 <h2>TRANSFER MONEY</h2>
+<img width="1348" height="627" alt="Image" src="https://github.com/user-attachments/assets/557cf868-fcfa-4735-9450-3d154a677db4" />
