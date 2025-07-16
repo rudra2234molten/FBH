@@ -159,4 +159,46 @@ def Deposite(request):
   return render(request,'deposite.html')
 
 def Transfer(request):
-  return render(request,'transfer.html')
+    if request.method == 'POST':
+        sender_acc = int(request.POST.get('sender_acc'))
+        pin = int(request.POST.get('pin'))
+        receiver_acc = int(request.POST.get('receiver_acc'))
+        amount = int(request.POST.get('amount'))
+
+        try:
+            sender = Account.objects.get(acc=sender_acc)
+        except Account.DoesNotExist:
+            print("Sender account not found.")
+            return render(request, 'transfer.html', {'error': 'Invalid sender account'})
+
+        if sender.pin != pin:
+            return render(request, 'transfer.html', {'error': 'Incorrect PIN'})
+
+        try:
+            receiver = Account.objects.get(acc=receiver_acc)
+        except Account.DoesNotExist:
+            print("Receiver account not found.")
+            return render(request, 'transfer.html', {'error': 'Invalid receiver account'})
+
+        if sender.balance < amount:
+            return render(request, 'transfer.html', {'error': 'Insufficient Balance'})
+
+        # Perform transfer
+        sender.balance -= amount
+        receiver.balance += amount
+        sender.save()
+        receiver.save()
+
+        # Send confirmation emails
+        sender_title = f"Hi {sender.name},"
+        sender_body = f"₹{amount} has been debited from your account.\nNew Balance: ₹{sender.balance}\nThank you.\nFBH"
+
+        receiver_title = f"Hi {receiver.name},"
+        receiver_body = f"₹{amount} has been credited to your account.\nNew Balance: ₹{receiver.balance}\nThank you.\nFBH"
+
+        send_mail(sender_title, sender_body, settings.EMAIL_HOST_USER, [sender.mail], fail_silently=False)
+        send_mail(receiver_title, receiver_body, settings.EMAIL_HOST_USER, [receiver.mail], fail_silently=False)
+
+        return redirect('home')
+
+    return render(request, 'transfer.html')
